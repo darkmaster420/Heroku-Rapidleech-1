@@ -1,1 +1,1 @@
-web: /var/www/html
+web: heroku-php-apache2
