@@ -1,3 +1,5 @@
+cd /var/www/php
+echo "Cloning..."
 git clone https://github.com/Th3-822/rapidleech.git /rapidleech
-echo "Starting...."
+echo "Starting..."
 heroku-php-apache2 rapidleech/
