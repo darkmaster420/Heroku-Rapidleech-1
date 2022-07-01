@@ -1,10 +1,7 @@
 FROM php:7.0-apache
 
 # Cloning git repository
-RUN git clone https://github.com/Th3-822/rapidleech.git ./
-
-# Moving file
-COPY ./ /var/www/php
+RUN git clone https://github.com/Th3-822/rapidleech.git
 
 # Installing packages
 RUN apt-get update && \
