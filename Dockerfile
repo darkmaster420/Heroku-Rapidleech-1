@@ -7,4 +7,5 @@ RUN apt-get update && \
 # Exposing
 EXPOSE  80
 
+COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
