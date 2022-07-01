@@ -1,1 +1,1 @@
-web: /usr/sbin/apache2
+web: /var/www/html
