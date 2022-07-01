@@ -8,7 +8,7 @@ RUN apt-get update && \
 RUN git clone https://github.com/Th3-822/rapidleech.git ./
 
 # Moving file
-COPY ./ /app
+RUN mv ./ /app/
 
 # Exposing
 EXPOSE  80
