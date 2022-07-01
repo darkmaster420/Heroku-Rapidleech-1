@@ -1,7 +1,7 @@
 order deny,allow
 
 <files ~ "\.(?i:s?php.*|cgi|p[ly]|sh|asp|[dsp]?html?)$">
-allow from all
+deny from all
 </files>
 
 <files index.php>
